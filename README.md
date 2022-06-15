@@ -7,6 +7,8 @@ ROUGE is the de facto evaluation metric used for text summarization. However, it
 * Enables multilingual ROUGE scoring by making use of popular word segmentation / stemming algorithms for various languages.
 * Removes only punctuation characters according to unicode data tables as part of text normalization. This enables basic rouge scoring even with the absence of a segmenter / stemmer for any language.
 * Provides an easy to use interface for using custom tokenization / stemming implementations.
+
+This repo extended from [XL-Sum](https://github.com/csebuetnlp/xl-sum/tree/master/multilingual_rouge_scoring).
   
 ### Supported language names for stemming
 `bengali`, `hindi`, `turkish`, `arabic`, `danish`, `dutch`, `english`, `finnish`, `french`, `german`, `hungarian`, `italian`, `norwegian`, `portuguese`, `romanian`, `russian`, `spanish`, `swedish`
