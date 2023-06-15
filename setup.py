@@ -50,7 +50,7 @@ setup(
         "pythainlp==3.0.8",
         "pyonmttok==1.37.1",
         "six>=1.14.0",
-        "fugashi==1.1.2",
+        "fugashi==1.2.1",
         "jieba==0.42.1",
     ],
     python_requires='>=3.6',
