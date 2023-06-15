@@ -16,10 +16,15 @@ This repo extended from [XL-Sum](https://github.com/csebuetnlp/xl-sum/tree/maste
 ### Supported language names for word segmentation
 `chinese`, `thai`, `japanese`, `burmese`
 
-## Setup
+## Dev Setup
 ```bash
 python setup.py bdist_wheel
 pip install -e .
+```
+
+## Install
+```bash
+pip install git+https://github.com/faisaltareque/bangla_rouge_score
 ```
 
 
